@@ -1,0 +1,7 @@
+write(1, "dtome-p1", 8)                 = 8
+write(3, "dtome-p1", 8)                 = -1 EINVAL (Invalid argument)
+write(2, "tee: ", 5)                    = 5
+write(2, "/dev/fortytwo", 13)           = 13
+write(2, ": Invalid argument", 18)      = 18
+write(2, "\n", 1)                       = 1
++++ exited with 1 +++
